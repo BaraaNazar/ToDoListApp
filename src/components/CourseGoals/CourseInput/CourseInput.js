@@ -25,7 +25,7 @@ const CourseInput = (props) => {
   return (
     <form onSubmit={formSubmitHandler}>
       <div className='form-control'>
-        <label>Course Goal</label>
+        <label>Today's Goals</label>
         <input
           style={{ borderColor: isVaild ? 'black' : 'red' }}
           type='text'
